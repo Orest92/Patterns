@@ -38,7 +38,7 @@ namespace Patterns
 
         public void ValidateResultCount(string expextedCount)
         {
-            Assert.IsTrue(this.ResultCountDiv.Text.Equals(expextedCount), "Result container contains different result count");
+            Assert.IsTrue(this.ResultCountDiv.Text.Equals(expextedCount), "Result container contains different result count. " + this.ResultCountDiv.Text);
         }
 
     }

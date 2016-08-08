@@ -60,6 +60,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="BingMainPage.cs" />
+    <Compile Include="BingTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
